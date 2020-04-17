@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on account menu : By.id: header-account-menu<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking On SignIn Button : By.id: header-account-signin-button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering email : abc@gmail.com On email address field : By.id: gss-signin-email<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering password : abc123 On password field : By.id: gss-signin-password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in button : By.id: gss-signin-submit<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting text from error message : By.id: gss-signin-incorrect-email-or-password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\way2automation\expedia-project/target/surefire-reports/html/verifyErrorMessageThu_Apr_16_22_26_27_BST_2020.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\way2automation\expedia-project/target/surefire-reports/html/verifyErrorMessageThu_Apr_16_22_26_27_BST_2020.jpg><img src=C:\way2automation\expedia-project/target/surefire-reports/html/verifyErrorMessageThu_Apr_16_22_26_27_BST_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on flights tab : By.xpath: //button[@id='tab-flight-tab-hp']//span[@class='uitk-icon uitk-icon-flights']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering flying from : London (LHR-Heathrow) On flying from field : By.id: flight-origin-hp-flight<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering going to : Mumbai (BOM-Chhatrapati Shivaji Intl.) On going to field : By.id: flight-destination-hp-flight<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering departing date : 25/04/2020 On departing date field : By.id: flight-departing-hp-flight<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering returning date : 23/05/2020 On returning date field : By.id: flight-returning-hp-flight<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on search button : By.xpath: //*[@id="gcw-flights-form-hp-flight"]/div[9]/label/button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting text from : By.xpath: //*[@id="titleBar"]/h1/div/span[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\way2automation\expedia-project/target/surefire-reports/html/verifySearchFlightThu_Apr_16_22_26_55_BST_2020.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\way2automation\expedia-project/target/surefire-reports/html/verifySearchFlightThu_Apr_16_22_26_55_BST_2020.jpg><img src=C:\way2automation\expedia-project/target/surefire-reports/html/verifySearchFlightThu_Apr_16_22_26_55_BST_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Expedia Test" duration-ms="55083" started-at="2020-04-16T21:26:01Z" finished-at="2020-04-16T21:26:56Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="27183" started-at="2020-04-16T21:26:01Z" finished-at="2020-04-16T21:26:28Z">
+      <class name="uk.co.expedia.testsuite.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:uk.co.expedia.testsuite.LoginTest@4b9e13df]" name="openBrowser" is-config="true" duration-ms="17613" started-at="2020-04-16T21:26:01Z" finished-at="2020-04-16T21:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyErrorMessage()[pri:0, instance:uk.co.expedia.testsuite.LoginTest@4b9e13df]" name="verifyErrorMessage" duration-ms="6743" started-at="2020-04-16T21:26:19Z" finished-at="2020-04-16T21:26:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on account menu : By.id: header-account-menu<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking On SignIn Button : By.id: header-account-signin-button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering email : abc@gmail.com On email address field : By.id: gss-signin-email<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering password : abc123 On password field : By.id: gss-signin-password<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in button : By.id: gss-signin-submit<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting text from error message : By.id: gss-signin-incorrect-email-or-password<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\way2automation\expedia-project/target/surefire-reports/html/verifyErrorMessageThu_Apr_16_22_26_27_BST_2020.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\way2automation\expedia-project/target/surefire-reports/html/verifyErrorMessageThu_Apr_16_22_26_27_BST_2020.jpg><img src=C:\way2automation\expedia-project/target/surefire-reports/html/verifyErrorMessageThu_Apr_16_22_26_27_BST_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.expedia.testsuite.LoginTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="1716" started-at="2020-04-16T21:26:27Z" finished-at="2020-04-16T21:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.expedia.testsuite.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Search Flights" duration-ms="27616" started-at="2020-04-16T21:26:29Z" finished-at="2020-04-16T21:26:56Z">
+      <class name="uk.co.expedia.testsuite.FlightsTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:uk.co.expedia.testsuite.FlightsTest@6a4f787b]" name="openBrowser" is-config="true" duration-ms="16134" started-at="2020-04-16T21:26:29Z" finished-at="2020-04-16T21:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifySearchFlight()[pri:0, instance:uk.co.expedia.testsuite.FlightsTest@6a4f787b]" name="verifySearchFlight" duration-ms="9329" started-at="2020-04-16T21:26:45Z" finished-at="2020-04-16T21:26:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on flights tab : By.xpath: //button[@id='tab-flight-tab-hp']//span[@class='uitk-icon uitk-icon-flights']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering flying from : London (LHR-Heathrow) On flying from field : By.id: flight-origin-hp-flight<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering going to : Mumbai (BOM-Chhatrapati Shivaji Intl.) On going to field : By.id: flight-destination-hp-flight<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering departing date : 25/04/2020 On departing date field : By.id: flight-departing-hp-flight<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering returning date : 23/05/2020 On returning date field : By.id: flight-returning-hp-flight<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on search button : By.xpath: //*[@id="gcw-flights-form-hp-flight"]/div[9]/label/button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting text from : By.xpath: //*[@id="titleBar"]/h1/div/span[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\way2automation\expedia-project/target/surefire-reports/html/verifySearchFlightThu_Apr_16_22_26_55_BST_2020.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\way2automation\expedia-project/target/surefire-reports/html/verifySearchFlightThu_Apr_16_22_26_55_BST_2020.jpg><img src=C:\way2automation\expedia-project/target/surefire-reports/html/verifySearchFlightThu_Apr_16_22_26_55_BST_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchFlight -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.expedia.testsuite.FlightsTest@6a4f787b]" name="tearDown" is-config="true" duration-ms="1490" started-at="2020-04-16T21:26:55Z" finished-at="2020-04-16T21:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.expedia.testsuite.FlightsTest -->
+    </test> <!-- Search Flights -->
+  </suite> <!-- Expedia Test -->
+</testng-results>
